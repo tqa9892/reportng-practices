@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="reportcheck">
+<listeners>
+<listener class-name="reportnglistener.listenerReport"/>
+
+</listeners>
+  <test name="reporting">
+    <classes>
+      <class name="reportngcl.reportngtesting"/>
+    </classes>
+  </test> <!-- reporting -->
+</suite> <!-- reportcheck -->
